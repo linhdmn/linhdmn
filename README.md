@@ -34,7 +34,7 @@ Caching:       Redis
   *A powerful server that implements the Model Context Protocol (MCP) to provide AI assistants with structured access to databases*
 
 - **[cortex](https://github.com/FreePeak/cortex)** - Cortex Platform
-  *A declarative platform for building Cortex applications in Golang*
+  *A declarative platform for building Model Context Protocol (MCP) servers in Golang—exposing tools, resources & prompts in a clean, structured way*
 
 - **[kafka-writer-datax-plugin](https://github.com/linhdmn/kafka-writer-datax-plugin)** - DataX plugin for Kafka
   *Efficient data transfer between Kafka and various data sources*
