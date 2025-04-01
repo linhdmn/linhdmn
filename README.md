@@ -33,7 +33,7 @@ Caching:       Redis
 
 <div align="center">
   
-  ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=linhdmn&theme=rose_pine)
+  <!-- ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=linhdmn&theme=rose_pine) -->
   
   <table border="0">
     <tr>
@@ -43,20 +43,15 @@ Caching:       Redis
       <td>
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=linhdmn&theme=rose_pine" alt="Most Commit Language"/>
       </td>
-    </tr>
-    <tr>
       <td>
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=linhdmn&theme=rose_pine" alt="Stats"/>
-      </td>
-      <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=linhdmn&theme=rose_pine&utcOffset=8" alt="Productive Time"/>
       </td>
     </tr>
   </table>
   
 </div>
 
-<h3 align="center">Organization Contributions</h3>
+<h3 align="">Organization Contributions</h3>
 <div align="center">
   <a href="https://github.com/FreePeak">
     <img src="https://img.shields.io/badge/FreePeak-Organization-blue?style=for-the-badge&logo=github" alt="FreePeak Organization"/>
@@ -64,32 +59,24 @@ Caching:       Redis
 </div>
 <p align="center">
   <a href="https://github.com/FreePeak/db-mcp-server">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=db-mcp-server&theme=buefy&hide_border=true" alt="db-mcp-server Repo"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=db-mcp-server&theme=rose_pine&hide_border=true" alt="db-mcp-server Repo"/>
   </a>
   <a href="https://github.com/FreePeak/cortex">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=cortex&theme=buefy&hide_border=true" alt="cortex Repo"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=cortex&theme=rose_pine&hide_border=true" alt="cortex Repo"/>
   </a>
 </p>
 
-### 🚀 Open Source Projects
-
-- **[db-mcp-server](https://github.com/FreePeak/db-mcp-server)** - Multi-Database Model Context Protocol Server  
-  *A powerful server that implements the Model Context Protocol (MCP) to provide AI assistants with structured access to databases*  
-  ![Language](https://img.shields.io/github/languages/top/FreePeak/db-mcp-server?style=flat-square)  
-  ![Stars](https://img.shields.io/github/stars/FreePeak/db-mcp-server?style=social)  
-  ![Forks](https://img.shields.io/github/forks/FreePeak/db-mcp-server?style=social)
-
-- **[cortex](https://github.com/FreePeak/cortex)** - Cortex Platform  
-  *A declarative platform for building Model Context Protocol (MCP) servers in Golang—exposing tools, resources & prompts in a clean, structured way*  
-  ![Language](https://img.shields.io/github/languages/top/FreePeak/cortex?style=flat-square)  
-  ![Stars](https://img.shields.io/github/stars/FreePeak/cortex?style=social)  
-  ![Forks](https://img.shields.io/github/forks/FreePeak/cortex?style=social)
-
-- **[kafka-writer-datax-plugin](https://github.com/linhdmn/kafka-writer-datax-plugin)** - DataX plugin for Kafka  
-  *Efficient data transfer between Kafka and various data sources*  
-  ![Language](https://img.shields.io/github/languages/top/linhdmn/kafka-writer-datax-plugin?style=flat-square)  
-  ![Stars](https://img.shields.io/github/stars/linhdmn/kafka-writer-datax-plugin?style=social)  
-  ![Forks](https://img.shields.io/github/forks/linhdmn/kafka-writer-datax-plugin?style=social)
+<h3 align="">🚀 Open Source Projects</h3>
+<div align="center">
+  <a href="https://github.com/linhdmn">
+    <img src="https://img.shields.io/badge/Personal_Projects-blue?style=for-the-badge&logo=github" alt="Personal Projects"/>
+  </a>
+</div>
+<p align="center">
+  <a href="https://github.com/linhdmn/kafka-writer-datax-plugin">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=linhdmn&repo=kafka-writer-datax-plugin&theme=rose_pine&hide_border=true" alt="kafka-writer-datax-plugin Repo"/>
+  </a>
+</p>
 
 ### 🛠️ Engineering Principles
 
