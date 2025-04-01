@@ -31,7 +31,45 @@ Caching:       Redis
 
 ### 📊 GitHub Profile Stats
 
-| <a href="https://github.com/linhdmn"><img align="center" src="https://github-readme-stats.vercel.app/api?username=linhdmn&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="linhdmn's github stats" /></a> | <a href="https://github.com/linhdmn"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=linhdmn&layout=compact&theme=buefy&hide_border=true" /></a> |
+<div align="center">
+  
+  ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=linhdmn&theme=rose_pine)
+  
+  <table border="0">
+    <tr>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=linhdmn&theme=rose_pine" alt="Repos per Language"/>
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=linhdmn&theme=rose_pine" alt="Most Commit Language"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=linhdmn&theme=rose_pine" alt="Stats"/>
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=linhdmn&theme=rose_pine&utcOffset=8" alt="Productive Time"/>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+
+<h3 align="center">Organization Contributions</h3>
+<div align="center">
+  <a href="https://github.com/FreePeak">
+    <img src="https://img.shields.io/badge/FreePeak-Organization-blue?style=for-the-badge&logo=github" alt="FreePeak Organization"/>
+  </a>
+</div>
+<p align="center">
+  <a href="https://github.com/FreePeak/db-mcp-server">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=db-mcp-server&theme=buefy&hide_border=true" alt="db-mcp-server Repo"/>
+  </a>
+  <a href="https://github.com/FreePeak/cortex">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=cortex&theme=buefy&hide_border=true" alt="cortex Repo"/>
+  </a>
+</p>
 
 ### 🚀 Open Source Projects
 
