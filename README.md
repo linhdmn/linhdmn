@@ -38,13 +38,11 @@ Caching:       Redis
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=linhdmn&theme=rose_pine" alt="Repos per Language"/>
+        <img src="https://github-readme-stats.vercel.app/api?username=linhdmn&show_icons=true&include_all_commits=true&theme=rose_pine" alt="Most Commit Language"/>
+        <!-- <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=linhdmn&theme=rose_pine" alt="Stats"/> -->
       </td>
       <td>
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=linhdmn&theme=rose_pine" alt="Most Commit Language"/>
-      </td>
-      <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=linhdmn&theme=rose_pine" alt="Stats"/>
       </td>
     </tr>
   </table>
