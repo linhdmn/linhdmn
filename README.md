@@ -59,6 +59,9 @@ Caching:       Redis
   <a href="https://github.com/FreePeak/db-mcp-server">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=db-mcp-server&theme=rose_pine&hide_border=true" alt="db-mcp-server Repo"/>
   </a>
+  <a href="https://github.com/FreePeak/commitgen">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=commitgen&theme=rose_pine&hide_border=true" alt="commitgen Repo"/>
+  </a>
   <a href="https://github.com/FreePeak/cortex">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=cortex&theme=rose_pine&hide_border=true" alt="cortex Repo"/>
   </a>
