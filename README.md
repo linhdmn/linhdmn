@@ -10,10 +10,10 @@ With over 7 years of experience in the tech industry, I'm passionate about desig
 
 ### 🔭 Professional Experience
 
-- **Senior Software Engineer / SRE / DevOps** @ BlueSG  
+- **Previous** Senior Software Engineer / SRE / DevOps @ Startup BlueSG  
   *Leading infrastructure and backend development initiatives*
 
-- **Previous:** Senior Software Engineer @ ZaloPay  
+- **Another Previous:** Senior Software Engineer @ ZaloPay  
   *Built robust payment processing systems and financial infrastructure*
 
 
