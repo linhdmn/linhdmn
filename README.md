@@ -29,55 +29,6 @@ Monitoring:    Prometheus, Grafana, Elasticsearch
 Caching:       Redis
 ```
 
-### 📊 GitHub Profile Stats
-
-<div align="center">
-  
-  <!-- ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=linhdmn&theme=rose_pine) -->
-  
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=linhdmn&show_icons=true&include_all_commits=true&theme=rose_pine" alt="Most Commit Language"/>
-        <!-- <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=linhdmn&theme=rose_pine" alt="Stats"/> -->
-      </td>
-      <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=linhdmn&theme=rose_pine" alt="Most Commit Language"/>
-      </td>
-    </tr>
-  </table>
-  
-</div>
-
-<h3 align="">Organization Contributions</h3>
-<div align="center">
-  <a href="https://github.com/FreePeak">
-    <img src="https://img.shields.io/badge/FreePeak-Organization-blue?style=for-the-badge&logo=github" alt="FreePeak Organization"/>
-  </a>
-</div>
-<p align="center">
-  <a href="https://github.com/FreePeak/db-mcp-server">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=db-mcp-server&theme=rose_pine&hide_border=true" alt="db-mcp-server Repo"/>
-  </a>
-  <a href="https://github.com/FreePeak/commitgen">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=commitgen&theme=rose_pine&hide_border=true" alt="commitgen Repo"/>
-  </a>
-  <a href="https://github.com/FreePeak/cortex">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=FreePeak&repo=cortex&theme=rose_pine&hide_border=true" alt="cortex Repo"/>
-  </a>
-</p>
-
-<h3 align="">🚀 Open Source Projects</h3>
-<div align="center">
-  <a href="https://github.com/linhdmn">
-    <img src="https://img.shields.io/badge/Personal_Projects-blue?style=for-the-badge&logo=github" alt="Personal Projects"/>
-  </a>
-</div>
-<p align="center">
-  <a href="https://github.com/linhdmn/kafka-writer-datax-plugin">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=linhdmn&repo=kafka-writer-datax-plugin&theme=rose_pine&hide_border=true" alt="kafka-writer-datax-plugin Repo"/>
-  </a>
-</p>
 
 ### 🛠️ Engineering Principles
 
@@ -89,11 +40,6 @@ I value **clean code**, **testable architecture**, and **pragmatic design**. My 
 - SOLID Principles
 - KISS & YAGNI Methodologies
 
-### 🌱 Current Focus
-
-- Building my first SaaS product
-- Exploring event-driven microservice architectures
-- Contributing to open source projects
 
 ### 📫 Get in Touch
 
