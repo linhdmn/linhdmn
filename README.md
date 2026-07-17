@@ -6,7 +6,7 @@
 
 ## Senior Software Engineer | SRE | DevOps | Indie Hacker
 
-With over 7 years of experience in the tech industry, I'm passionate about designing scalable systems, following best engineering practices, and contributing to open-source projects.
+Experience since 2018 in the tech industry, I'm passionate about designing scalable systems, following best engineering practices, and contributing to open-source projects.
 
 ### 🔭 Professional Experience
 
