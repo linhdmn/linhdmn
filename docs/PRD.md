@@ -30,7 +30,7 @@ writes what, at what scale, and how to make contact.
 | Header | Name, role line, one-line positioning statement, contact badge row |
 | About | Experience since 2018; focus on AI-agent/production infrastructure |
 | Open Source | Table of 6 projects: description + dynamic language/stars/forks badges |
-| Tech Stack | shields.io badges grouped by languages, frameworks, data, infra |
+| Tech Stack | Table: area column + shields.io badge groups (languages, frameworks, data, infra) |
 | Experience | Current employer (Be Group, since Sept 2025) + prior roles (BlueSG, ZaloPay) marked *previous* |
 | Engineering Principles | DDD, TDD, event-driven, SOLID, KISS & YAGNI |
 | Get in Touch | LinkedIn / GitHub / email badges |
@@ -61,9 +61,8 @@ writes what, at what scale, and how to make contact.
   listed as *current (since Sept 2025)*; BlueSG and ZaloPay are marked
   *previous*. The Be Group entry carries **no job title and no responsibility
   blurb**: the owner supplied the employer and start date only, and no title
-  was recoverable from the workspace (employer notes confirm the work area but
-  never state a role). Reusing the headline "Senior Software Engineer" from the
-  prior README would have transferred a title across employers — the same
+  was provided. Reusing the headline "Senior Software Engineer" from the prior
+  README would have transferred a title across employers — the same
   unsupported-claim class as the removed "full-time". **Owner to supply the
   Be Group title** (and an optional one-liner) before that line is complete.
 
@@ -77,5 +76,6 @@ task-tracker file is kept in a GitHub repo.
 
 *Last updated: 2026-09-07 (`README.md` rewritten in a professional profile
 format; Open Source section added with 6 verified projects and dynamic badges;
-upstream OmniRoute attribution evidenced by 6 merged PRs; current Be Group
-employer added without an inferred job title.)*
+Tech Stack rendered as a badge table; upstream OmniRoute attribution evidenced
+by 6 merged PRs; current Be Group employer added without an inferred job
+title.)*
