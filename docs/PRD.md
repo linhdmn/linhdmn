@@ -31,7 +31,7 @@ writes what, at what scale, and how to make contact.
 | About | Experience since 2018; focus on AI-agent/production infrastructure |
 | Open Source | Table of 6 projects: description + dynamic language/stars/forks badges |
 | Tech Stack | Table: area column + shields.io badge groups (languages, frameworks, data, infra) |
-| Experience | Current employer (Be Group, since Sept 2025) + prior roles (BlueSG, ZaloPay) marked *previous* |
+| Experience | Current role (Senior Software Engineer @ Be Group, since Sept 2025) + prior roles (BlueSG, ZaloPay) marked *previous* |
 | Engineering Principles | DDD, TDD, event-driven, SOLID, KISS & YAGNI |
 | Get in Touch | LinkedIn / GitHub / email badges |
 
@@ -57,14 +57,14 @@ writes what, at what scale, and how to make contact.
   rots the moment #12333 merges, which would contradict the dynamic-badge
   principle above. "contributor" stays true permanently; the count lives here,
   where it is explicitly dated.
-- **Employment status is explicit, titles are not invented.** Be Group is
-  listed as *current (since Sept 2025)*; BlueSG and ZaloPay are marked
-  *previous*. The Be Group entry carries **no job title and no responsibility
-  blurb**: the owner supplied the employer and start date only, and no title
-  was provided. Reusing the headline "Senior Software Engineer" from the prior
-  README would have transferred a title across employers — the same
-  unsupported-claim class as the removed "full-time". **Owner to supply the
-  Be Group title** (and an optional one-liner) before that line is complete.
+- **Employment status is explicit, titles are never inferred.** Be Group is
+  listed as **Senior Software Engineer** — *current (since Sept 2025)*; BlueSG
+  and ZaloPay are marked *previous*. The Be Group title was supplied directly
+  by the owner on 2026-09-07. It was deliberately absent from the page until
+  then: reusing the headline "Senior Software Engineer" from the prior README
+  would have transferred a title across employers without evidence — the same
+  unsupported-claim class as the removed "full-time". No responsibility blurb
+  is shown for Be Group because none was provided.
 
 ## 5. Task record
 
@@ -77,5 +77,5 @@ task-tracker file is kept in a GitHub repo.
 *Last updated: 2026-09-07 (`README.md` rewritten in a professional profile
 format; Open Source section added with 6 verified projects and dynamic badges;
 Tech Stack rendered as a badge table; upstream OmniRoute attribution evidenced
-by 6 merged PRs; current Be Group employer added without an inferred job
-title.)*
+by 6 merged PRs; Be Group added as current employer with an owner-supplied
+Senior Software Engineer title.)*

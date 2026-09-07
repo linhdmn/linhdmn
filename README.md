@@ -53,7 +53,7 @@ More open source from the [@FreePeak](https://github.com/FreePeak) organization.
 
 ## Experience
 
-**Be Group** · *current (since Sept 2025)*
+**Senior Software Engineer** — Be Group · *current (since Sept 2025)*
 
 **Senior Software Engineer / SRE / DevOps** — Startup BlueSG · *previous*
 _Leading infrastructure and backend development initiatives_
