@@ -1,4 +1,4 @@
-<h1 align="center">Harvey Doan</h1>
+<h1 align="center">Linh Doan</h1>
 
 <p align="center">
   <strong>Senior Software Engineer · SRE · DevOps · Indie Hacker</strong><br/>
