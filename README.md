@@ -15,6 +15,8 @@
 
 ---
 
+[![Tokscale Stats](https://tokscale.ai/api/embed/linhdmn/svg?tokens=compact&cost=compact)](https://tokscale.ai/u/linhdmn)
+
 ## About
 
 Software engineer since 2018, currently at **Be Group** (since Sept 2025), previously **BlueSG** and **ZaloPay** — passionate about designing scalable systems, following best engineering practices, and contributing to open-source projects.
