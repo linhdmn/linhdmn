@@ -1,24 +1,29 @@
-# PRD — `linhdmn/linhdmn` (GitHub Profile README)
+# PRD — `linhdmn/linhdmn` (GitHub Profile and Video Series)
 
 ## 1. Purpose
 
-This repository is the owner's GitHub **profile special repo**: the single
-`README.md` rendered on `https://github.com/linhdmn` is the public professional
-introduction for recruiters, collaborators, and peers. There is no code, build,
-or test suite. Success = a visitor can understand the engineer's role, areas of
-expertise, selected work, experience, and contact path in about 30 seconds
-without decoding a visual layout or trusting unsupported metrics.
+This repository is the owner's GitHub **profile special repo**: the `README.md`
+rendered on `https://github.com/linhdmn` is the public professional introduction
+for recruiters, collaborators, and peers. The `videos/` directory extends the
+same evidence-based narrative into seven shareable vertical clips. Success = a
+visitor can understand the engineer's role, selected work, and contact path
+quickly, in text or video, without unsupported claims.
 
 ## 2. Scope
 
 ### In scope
 
-- `README.md` — the public deliverable: section hierarchy, wording, project
-  attribution, links, and factual claims.
+- `README.md` — section hierarchy, wording, project attribution, links, and
+  factual claims.
 - Professional positioning around the current Senior Software Engineer role and
   AI-agent / production-infrastructure work.
 - Selected open-source work, with `dsh-mux` and `dsh-feature-loop` first and
   upstream `OmniRoute` last, plus dynamic project signals.
+- Seven 45-second 1080×1920 videos covering the profile, `db-mcp-server`,
+  `LeanKG`, `cortex`, `devagent`, `onegw`, and `xdev`, with English voiceover,
+  burned-in timed captions, and a quiet synthesized music bed.
+- A local regeneration script using Python's standard library, Chrome, FFmpeg,
+  and macOS `say`; no external media service or new dependency.
 - Factual correctness of project attribution, employment status, and metrics.
 
 ### Out of scope
@@ -27,26 +32,25 @@ without decoding a visual layout or trusting unsupported metrics.
   previous Tokscale embed was removed because it added noise and could become
   stale without improving the professional narrative.
 - A time-sensitive "current focus" section.
-- A new website, custom domain, or visual asset not already represented by the
-  GitHub README.
+- A new website, custom domain, or hosted video service.
+- Automating the entire 108-repository FreePeak organization into individual
+  videos; this series deliberately covers the profile's selected work only.
 
 ## 3. Structure (current)
 
 - **Header:** name, current role, SRE/DevOps experience, positioning statement,
   location, and contact badges.
-- **About:** two concise paragraphs describing the AI-agent / production-systems
-  boundary and engineering values.
-- **Areas of practice:** agent infrastructure, reliable/economical AI, and
-  software delivery.
-- **Selected work:** `dsh-mux` and `dsh-feature-loop` as featured cards, followed
-  by a mobile-friendly list of selected projects.
+- **About and areas of practice:** concise positioning around agent
+  infrastructure, reliable/economical AI, and software delivery.
+- **Selected work:** `dsh-mux` and `dsh-feature-loop` as featured cards,
+  followed by a mobile-friendly list of selected projects.
+- **Video series:** a direct link to seven 45-second MP4 introductions under
+  `videos/`, with a local regeneration command and public-source links.
 - **Experience:** Be Group as current; BlueSG and ZaloPay explicitly previous.
-- **Technical toolkit:** languages, agent/backend capabilities, and
-  infrastructure grouped by practical use.
-- **Engineering principles:** DDD, TDD, event-driven architecture, SOLID, KISS,
-  and YAGNI.
-- **Get in touch:** LinkedIn, GitHub, email, and a short invitation focused on
-  relevant collaboration.
+- **Technical toolkit and engineering principles:** concise, evidence-oriented
+  capabilities and working values.
+- **Get in touch:** LinkedIn, GitHub, email, and a short collaboration
+  invitation.
 
 ## 4. Research and verification basis
 
@@ -75,48 +79,41 @@ sources at these commits:
 - `FreePeak/dsh-feature-loop@af24efca7318fdfc7f86e14662de6c8826776b11` —
   extension-point architecture, budgets, routing, detectors, and approval gate.
 
-The supporting-project descriptions were checked against their public default
-branch sources on the same date. The resulting structure uses short paragraphs,
-clear sections, plain-text project descriptions, and dynamic badges rather than
-hardcoded star/fork counts. The new plugin cards lead because the owner
-requested the latest work to lead; `OmniRoute` is last and remains explicitly
-labelled **upstream · contributor**.
+The supporting-project descriptions and all six project-video scripts were
+checked against their public default-branch READMEs and repository metadata on
+2026-09-24. The video claims are limited to documented functionality, including
+database guardrails, LeanKG's published token/tool-call results, Cortex's MCP
+surface, DevAgent's evidence gates, OneGW's API translation/fallback behavior,
+and Xdev's binary/memory/tool design.
 
 ## 5. Key decisions
 
 - **Professional positioning over a personal hobby board.** The header states
-  the role and concrete domain first. The practice bullets make the value
+  the role and concrete domain first; the practice bullets make the value
   proposition scannable without claiming a new title or inventing a current
   focus.
-- **Featured work before supporting work.** `dsh-mux` gets a short product
-  description of the GUI-to-CLI thread workflow, including its current
-  Claude-only enablement; `dsh-feature-loop` gets its bounded policy, budget,
-  routing, detector, and human-gate model. They appear before the other selected
-  projects because they are the requested newest additions.
-- **Attribution honesty.** FreePeak projects are presented as selected
-  organization work, while `diegosouzapw/OmniRoute` retains its full owner/repo
-  link and `upstream · contributor` marker. No sole-authorship claim is made
-  for OmniRoute. The two plugin repositories list `linhdmn` as their GitHub
-  contributor at the time of verification.
-- **Dynamic badges over volatile numbers.** CI, license, language, stars, and
-  forks are rendered through `img.shields.io`; no point-in-time metric is
-  hardcoded in the README. This keeps the page resilient to normal repository
-  changes.
-- **Evidence-oriented descriptions.** Functional language comes from each
-  project's README/PRD and public repository metadata. Broad claims are kept
-  durable ("agent infrastructure", "reliable systems") rather than presenting
-  an unverified user, revenue, or adoption number.
-- **Accessible, mobile-tolerant Markdown.** The page uses semantic headings,
-  descriptive image `alt` text, descriptive link labels, short paragraphs, and
-  compact lists rather than a wide project table. It avoids a visual hero image
-  and relies on native GitHub rendering so the content remains readable without
-  JavaScript or custom CSS.
-- **Employment status remains explicit.** Be Group is listed as Senior
-  Software Engineer and current since September 2025; BlueSG and ZaloPay remain
-  previous roles. No responsibility blurb is invented for Be Group.
+- **Featured work before supporting work.** `dsh-mux` and
+  `dsh-feature-loop` lead the written portfolio because they are the newest
+  additions. The video series follows the six projects already selected for
+  the public portfolio rather than every FreePeak repository.
+- **Attribution honesty.** FreePeak projects remain organization work, while
+  `diegosouzapw/OmniRoute` retains its full owner/repository link and
+  `upstream · contributor` marker. No sole-authorship claim is made.
+- **Dynamic badges over volatile numbers.** README CI, license, language,
+  stars, and forks use dynamic badges; no point-in-time counter is hardcoded.
+- **Evidence-oriented descriptions.** Functional language comes from project
+  READMEs and public repository metadata. LeanKG's performance result is
+  explicitly attributed to its published A/B evidence.
+- **Accessible written and visual content.** Markdown remains semantic and
+  mobile-tolerant. Videos use large high-contrast captions and a restrained
+  audio mix, with final frames that leave the project link visible for reading.
+- **Local, deterministic media generation.** The standard library, installed
+  Chrome/FFmpeg, and macOS `say` are reused instead of adding a dependency or
+  sending portfolio material to an external service. Generated intermediates
+  are ignored; only the final MP4s are tracked.
 - **No generic claim inflation.** The wording emphasizes systems thinking,
-  reliability, evidence, and human control rather than unsupported labels such
-  as "10x engineer", "AI thought leader", or guaranteed productivity gains.
+  reliability, evidence, and human control rather than unsupported labels or
+  guaranteed productivity gains.
 
 ## 6. Task record
 
@@ -128,6 +125,6 @@ task-tracker file is kept in a GitHub repo.
 
 *Last updated: 2026-09-24 (`README.md` revamped into an executive-style
 portfolio; `dsh-mux` and `dsh-feature-loop` added as the first featured
-projects; upstream `OmniRoute` moved to the bottom and kept with honest
-attribution; current remote plugin status, dynamic signals, public research
-basis, and accessibility-oriented Markdown structure documented.)*
+projects; upstream `OmniRoute` moved to the bottom with honest attribution;
+seven selected-work videos added with local regeneration, 45-second timing,
+voiceover, burned captions, and public-source verification.)*

@@ -95,6 +95,12 @@ open-source infrastructure.
   *(upstream · contributor)* — An MIT AI gateway that brings many providers and
   free tiers behind one endpoint for coding clients.
 
+## Watch the project series
+
+Seven short vertical introductions to the profile and the six selected projects
+above are available in the [`videos`](./videos/) directory. Each clip is 45
+seconds, with English voiceover, burned-in captions, and a public GitHub link.
+
 ## Experience
 
 - **Senior Software Engineer — Be Group** — current since September 2025.

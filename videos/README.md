@@ -1,7 +1,7 @@
-# FreePeak Open Source — 60-Second Video Series
+# FreePeak Open Source — 45-Second Video Series
 
-This directory contains seven vertical, one-minute English videos introducing
-Linh Doan's featured open-source work through the FreePeak organization.
+This directory contains seven vertical, 45-second English videos introducing
+Linh Doan's profile and six featured open-source projects through FreePeak.
 
 | Video | Project | Core message |
 | --- | --- | --- |
@@ -13,9 +13,9 @@ Linh Doan's featured open-source work through the FreePeak organization.
 | `06-onegw.mp4` | onegw | One lightweight gateway, three LLM API formats, fallbacks, and usage control. |
 | `07-xdev.mp4` | xdev | A small static Go coding agent with a bounded memory budget. |
 
-Format: 1080×1920, 30 fps, H.264/AAC MP4, under 60 seconds, burned-in captions,
-local macOS English voiceover, and no external assets or credentials. Videos use
-public project names and documented claims only.
+Format: 1080×1920, 30 fps, H.264/AAC MP4, 45 seconds, burned-in timed captions,
+local macOS English voiceover, and a quiet synthesized music bed. Videos use
+public project names and documented claims only; no external assets or secrets.
 
 ## Re-render
 
@@ -23,9 +23,10 @@ public project names and documented claims only.
 python3 scripts/render_videos.py
 ```
 
-The renderer uses the existing Python standard library, Chrome, FFmpeg, and the
-macOS `say` command already present on this machine. It creates intermediate
-HTML/audio/PNG files under `build/`; only final MP4 files are tracked.
+The renderer uses only Python's standard library plus Chrome, FFmpeg, and the
+macOS `say` command already present on this machine. It writes intermediate
+HTML, audio, PNG, and frame-list files under `build/`; only final MP4 files are
+tracked.
 
 ## Source verification
 
@@ -37,5 +38,5 @@ HTML/audio/PNG files under `build/`; only final MP4 files are tracked.
 - `https://github.com/FreePeak/onegw`
 - `https://github.com/FreePeak/xdev`
 
----
+*Last updated: 2026-09-24 (added approved seven-video 1080×1920 series with 45-second timing, burned captions, voiceover, and a quiet music bed.)*
 *Last updated: 2026-09-24 (added approved seven-video 1080×1920 series, renderer, captions, and public-source verification.)*
