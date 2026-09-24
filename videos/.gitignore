@@ -1,0 +1,4 @@
+# Generated media intermediate files
+videos/build/
+videos/scripts/__pycache__/
+*.pyc
