@@ -12,8 +12,6 @@ human-in-the-loop delivery.
 
 Ho Chi Minh City, Vietnam · Software engineer since 2018
 
-[![Tokscale Stats](https://tokscale.ai/api/embed/linhdmn/svg?tokens=compact&cost=compact)](https://tokscale.ai/u/linhdmn)
-
 ---
 
 ## About
@@ -35,67 +33,69 @@ tested pull request.
 - **Software delivery** — automation that produces reviewable, testable changes
   without hiding the failure modes.
 
-## Selected work
+## Open source
 
-I contribute to selected open-source infrastructure through the
-[@FreePeak](https://github.com/FreePeak) organization and to selected upstream
-projects. The first two projects below are my newest DSH plugins.
+I maintain the [@FreePeak](https://github.com/FreePeak) organization — Go, Rust,
+TypeScript, and JavaScript projects for AI-agent infrastructure. The projects
+below are ordered by stars, most-adopted first; star counts are live
+shields.io badges, not snapshots.
 
-### [`dsh-mux`](https://github.com/FreePeak/dsh-mux)
+### Featured
 
-**Keep coding-CLI conversations inside the DeepSeek Harness GUI.** `dsh-mux`
-adds a Mux panel, slash commands, a host tool, and a remote service for
-resumable conversations. Claude Code is enabled today; the plugin also discovers
-OMP, Pi, Cursor, Agy, and Command Code adapters, which remain disabled until
-each has a tested answer parser, while opencode is reported missing until its
-binary is available. Each turn runs one process and resumes by the CLI’s
-session id, without requiring a live bidirectional PTY.
+**[`dsh-mux`](https://github.com/FreePeak/dsh-mux)** — Keep coding-CLI
+conversations inside the DeepSeek Harness GUI. A Mux panel, slash commands, a
+host tool, and a remote service for resumable conversations. Each turn runs one
+process and resumes by the CLI's session id, with no live bidirectional PTY
+required.
 
-[![CI](https://img.shields.io/github/actions/workflow/status/FreePeak/dsh-mux/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/FreePeak/dsh-mux/actions/workflows/ci.yml)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![MIT license](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-![dsh-mux stars](https://img.shields.io/github/stars/FreePeak/dsh-mux?style=flat-square&label=stars)
-![dsh-mux forks](https://img.shields.io/github/forks/FreePeak/dsh-mux?style=flat-square&label=forks)
+**[`dsh-feature-loop`](https://github.com/FreePeak/dsh-feature-loop)** — A
+policy layer for bounded, reviewable agent runs. Uses the DeepSeek Harness
+extension points for step ceilings, cheap-first routing, deterministic stall
+detection, and pre-dispatch human approval; the standalone runner exercises the
+same policies under explicit cost and step budgets.
 
-### [`dsh-feature-loop`](https://github.com/FreePeak/dsh-feature-loop)
+**[`xdev`](https://github.com/FreePeak/xdev)** — A lightweight coding agent in
+one static Go binary, with streaming providers, session trees, tools, and a
+terminal UI.
 
-**A policy layer for bounded, reviewable agent runs.** `dsh-feature-loop` uses
-the DeepSeek Harness extension points for step ceilings, cheap-first routing,
-deterministic stall detection, and pre-dispatch human approval. Its standalone
-runner exercises the same policies with explicit cost and step budgets. The
-plugin is hosted on the harness rather than maintaining a vendored fork, keeping
-the control plane explicit and the failure path fail-closed.
+### FreePeak projects
 
-[![CI](https://img.shields.io/github/actions/workflow/status/FreePeak/dsh-feature-loop/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/FreePeak/dsh-feature-loop/actions/workflows/ci.yml)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![MIT license](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-![dsh-feature-loop stars](https://img.shields.io/github/stars/FreePeak/dsh-feature-loop?style=flat-square&label=stars)
-![dsh-feature-loop forks](https://img.shields.io/github/forks/FreePeak/dsh-feature-loop?style=flat-square&label=forks)
+| Project | What it does | Language | Stars |
+|---|---|---|---|
+| [`db-mcp-server`](https://github.com/FreePeak/db-mcp-server) | Multi-database MCP server for structured access with configurable guardrails, result limits, masking, timeouts, and audit logging | Go | ![stars](https://img.shields.io/github/stars/FreePeak/db-mcp-server?style=flat-square) |
+| [`LeanKG`](https://github.com/FreePeak/LeanKG) | Go code knowledge graph for lean agent context — stop burning tokens, start coding lean | Go | ![stars](https://img.shields.io/github/stars/FreePeak/LeanKG?style=flat-square) |
+| [`cortex`](https://github.com/FreePeak/cortex) | Declarative Go platform for MCP servers: tools, resources, and prompts in a clean, structured way | Go | ![stars](https://img.shields.io/github/stars/FreePeak/cortex?style=flat-square) |
+| [`ktme`](https://github.com/FreePeak/ktme) | Rust CLI that automates documentation from code changes over the Model Context Protocol | Rust | ![stars](https://img.shields.io/github/stars/FreePeak/ktme?style=flat-square) |
+| [`commitgen`](https://github.com/FreePeak/commitgen) | CLI that writes the commit message from staged changes | Go | ![stars](https://img.shields.io/github/stars/FreePeak/commitgen?style=flat-square) |
+| [`kai`](https://github.com/FreePeak/kai) | Rust TUI for agentic coding with multi-provider compatibility, prompt optimization, and cost-aware routing | Rust | ![stars](https://img.shields.io/github/stars/FreePeak/kai?style=flat-square) |
+| [`cursor-usage`](https://github.com/FreePeak/cursor-usage) | Cursor API request usage in the VS Code status bar: usage, extra charges, per-model breakdown | JavaScript | ![stars](https://img.shields.io/github/stars/FreePeak/cursor-usage?style=flat-square) |
+| [`xdev`](https://github.com/FreePeak/xdev) | Lightweight Go coding agent in one static binary: streaming providers, session trees, terminal UI | Go | ![stars](https://img.shields.io/github/stars/FreePeak/xdev?style=flat-square) |
+| [`dsh-feature-loop`](https://github.com/FreePeak/dsh-feature-loop) | Bounded agent loop for DeepSeek Harness: budget ceilings, cheap-first routing, loop hygiene detectors, ops dashboard | TypeScript | ![stars](https://img.shields.io/github/stars/FreePeak/dsh-feature-loop?style=flat-square) |
+| [`dsh-mux`](https://github.com/FreePeak/dsh-mux) | DeepSeek Harness plugin: talk to coding CLIs from the DSH web GUI, sessions resumed | TypeScript | ![stars](https://img.shields.io/github/stars/FreePeak/dsh-mux?style=flat-square) |
+| [`devagent`](https://github.com/FreePeak/devagent) | Autonomous backend delivery: ticket in, tested pull request out, with multi-worker fan-out and evidence gates | Go | ![stars](https://img.shields.io/github/stars/FreePeak/devagent?style=flat-square) |
+| [`onegw`](https://github.com/FreePeak/onegw) | Single-binary Go LLM gateway: any-to-any provider translation, fallback combos, token saver, usage tracking, ~100 MB RSS | Go | ![stars](https://img.shields.io/github/stars/FreePeak/onegw?style=flat-square) |
+| [`mermaid-mcp-server`](https://github.com/FreePeak/mermaid-mcp-server) | Lightweight MCP server for real-time Mermaid diagram syntax validation, minimal memory footprint | JavaScript | ![stars](https://img.shields.io/github/stars/FreePeak/mermaid-mcp-server?style=flat-square) |
+| [`token-lens`](https://github.com/FreePeak/token-lens) | Local-only dashboard for AI coding sessions: turns, tokens, and cost across Cursor, Claude Code, and OpenCode — all data stays on your machine | TypeScript | ![stars](https://img.shields.io/github/stars/FreePeak/token-lens?style=flat-square) |
 
-### More open source
+### Upstream contributions
+
+Merged pull requests to projects I use and study, upstream — each keeps its
+owner link and no sole-authorship is implied:
+
+- **[`pterm/pterm`](https://github.com/pterm/pterm)** — *merged* — long lines
+  now wrap before the area is redrawn.
+- **[`pulumi/pulumi`](https://github.com/pulumi/pulumi)** — *merged* — the Go
+  SDK marshals analyzer config schemas correctly.
+- **[`charmbracelet/bubbles`](https://github.com/charmbracelet/bubbles)** —
+  *merged* — delete the word under the cursor in `textinput`.
+- **[`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute)** —
+  *merged* — six fixes across provider routing, SSE output budgets, canonical
+  tool names, and setup configuration.
+- **[`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers)**
+  — *merged* — added a multi-database MCP server to the catalog.
 
 Browse the full [FreePeak organization](https://github.com/FreePeak) for more
-open-source infrastructure.
-
-- **[`db-mcp-server`](https://github.com/FreePeak/db-mcp-server)** — A
-  multi-database MCP server for structured access with configurable guardrails,
-  result limits, masking, timeouts, and audit logging.
-- **[`LeanKG`](https://github.com/FreePeak/LeanKG)** — A Go code knowledge graph
-  for lean agent context, with measured token and tool-call economics.
-- **[`cortex`](https://github.com/FreePeak/cortex)** — A declarative Go framework
-  for building MCP servers, tools, resources, and prompts.
-- **[`devagent`](https://github.com/FreePeak/devagent)** — Autonomous backend
-  delivery: ticket in, tested pull request out, with multi-worker fan-out and
-  evidence gates.
-- **[`onegw`](https://github.com/FreePeak/onegw)** — A single-binary Go LLM
-  gateway with provider translation, fallback combos, token optimization, and
-  usage telemetry.
-- **[`xdev`](https://github.com/FreePeak/xdev)** — A lightweight Go coding agent
-  in one static binary, with streaming providers, session trees, tools, and a
-  terminal UI.
-- **[`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute)**
-  *(upstream · contributor)* — An MIT AI gateway that brings many providers and
-  free tiers behind one endpoint for coding clients.
+infrastructure, including the DeepSeek Harness plugins and the browser arcade.
 
 ## Experience
 
