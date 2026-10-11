@@ -39,8 +39,7 @@ without decoding a visual layout or trusting unsupported metrics.
   boundary and engineering values.
 - **Areas of practice:** agent infrastructure, reliable/economical AI, and
   software delivery.
-- **Selected work:** three featured projects (`dsh-mux`, `dsh-feature-loop`,
-  `xdev`), then a star-ordered project table covering every FreePeak
+- **Open source:** a star-ordered project table covering every FreePeak
   infrastructure repository, then a merged-only upstream contributions list
   where each entry carries the upstream star count and the pull-request URL.
 - **Experience:** Be Group as current; BlueSG and ZaloPay explicitly previous.
@@ -95,13 +94,10 @@ enforce, so the list was wrong by one entry until this revision.
   the role and concrete domain first. The practice bullets make the value
   proposition scannable without claiming a new title or inventing a current
   focus.
-- **Featured work before supporting work.** `dsh-mux` gets a short product
-  description of the GUI-to-CLI thread workflow; `dsh-feature-loop` gets its
-  bounded policy, budget, routing, detector, and human-gate model; `xdev` gets
-  the single-static-binary agent summary. They lead because they are the
-  owner's newest and most representative work.
+- **Trust one ordering, not two.** The profile carries a single star-ordered
+  project table as the ranking; no separate featured block sits above it, so
+  there is nothing to argue with the table's ordering.
 - **Attribution honesty.** FreePeak projects are presented as organization
-  work, while upstream repositories keep their full `owner/repo` link
   (`pterm/pterm`, not `pterm`) and a per-pull-request URL. No sole-authorship
   claim is made for any organization or upstream repository.
 - **Complete infrastructure coverage, games excluded.** The star-ordered table
@@ -111,9 +107,8 @@ enforce, so the list was wrong by one entry until this revision.
   listing them would bury the infrastructure work. A closing line links the
   organization so they remain reachable.
 - **Star order is the ranking.** The owner asked for a star-ordered list, so the
-  table is sorted descending by live star count. The featured block above it is
-  labelled "Featured" rather than as a ranking, so the two orderings cannot be
-  read as one list.
+  table is sorted descending by live star count, and it is the only ordering on
+  the profile.
 - **Merged-only upstream section.** Upstream PRs are listed only when
   `merged_at` is non-null. Open or closed-unmerged PRs (9router, multica,
   awesome-ai-plugins) are deliberately omitted so nothing overstated survives.
@@ -148,9 +143,7 @@ task-tracker file is kept in a GitHub repo.
 
 ---
 
-*Last updated: 2026-10-11 (`README.md` star numbers are
-now literal and dated (2026-10-11) instead of live shields.io badges, and each
-upstream entry carries its star count plus a direct pull-request URL.
-`charmbracelet/bubbles#1057` was removed: closed by the author, `merged_at`
-null. All 14 FreePeak repos and all 9 PR links re-verified against the GitHub
-API.)*
+*Last updated: 2026-10-11 (removed the "Featured" block from `README.md`: the
+star-ordered table now carries the full FreePeak infrastructure set on its own,
+and the PRD records one ordering rather than two. Star counts and upstream PR
+links are unchanged from the 2026-10-11 snapshot.)*

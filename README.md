@@ -40,24 +40,6 @@ TypeScript, and JavaScript projects for AI-agent infrastructure. The projects
 below are ordered by stars, most-adopted first. Star counts are the 2026-10-11
 snapshot; the ordering can drift as the numbers move.
 
-### Featured
-
-**[`dsh-mux`](https://github.com/FreePeak/dsh-mux)** — Keep coding-CLI
-conversations inside the DeepSeek Harness GUI. A Mux panel, slash commands, a
-host tool, and a remote service for resumable conversations. Each turn runs one
-process and resumes by the CLI's session id, with no live bidirectional PTY
-required.
-
-**[`dsh-feature-loop`](https://github.com/FreePeak/dsh-feature-loop)** — A
-policy layer for bounded, reviewable agent runs. Uses the DeepSeek Harness
-extension points for step ceilings, cheap-first routing, deterministic stall
-detection, and pre-dispatch human approval; the standalone runner exercises the
-same policies under explicit cost and step budgets.
-
-**[`xdev`](https://github.com/FreePeak/xdev)** — A lightweight coding agent in
-one static Go binary, with streaming providers, session trees, tools, and a
-terminal UI.
-
 ### FreePeak projects
 
 | Project | What it does | Language | ★ |
