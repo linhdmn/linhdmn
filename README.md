@@ -37,8 +37,8 @@ tested pull request.
 
 I maintain the [@FreePeak](https://github.com/FreePeak) organization — Go, Rust,
 TypeScript, and JavaScript projects for AI-agent infrastructure. The projects
-below are ordered by stars, most-adopted first; star counts are live
-shields.io badges, not snapshots.
+below are ordered by stars, most-adopted first. Star counts are the 2026-10-11
+snapshot; the ordering can drift as the numbers move.
 
 ### Featured
 
@@ -60,39 +60,53 @@ terminal UI.
 
 ### FreePeak projects
 
-| Project | What it does | Language | Stars |
+| Project | What it does | Language | ★ |
 |---|---|---|---|
-| [`db-mcp-server`](https://github.com/FreePeak/db-mcp-server) | Multi-database MCP server for structured access with configurable guardrails, result limits, masking, timeouts, and audit logging | Go | ![stars](https://img.shields.io/github/stars/FreePeak/db-mcp-server?style=flat-square) |
-| [`LeanKG`](https://github.com/FreePeak/LeanKG) | Go code knowledge graph for lean agent context — stop burning tokens, start coding lean | Go | ![stars](https://img.shields.io/github/stars/FreePeak/LeanKG?style=flat-square) |
-| [`cortex`](https://github.com/FreePeak/cortex) | Declarative Go platform for MCP servers: tools, resources, and prompts in a clean, structured way | Go | ![stars](https://img.shields.io/github/stars/FreePeak/cortex?style=flat-square) |
-| [`ktme`](https://github.com/FreePeak/ktme) | Rust CLI that automates documentation from code changes over the Model Context Protocol | Rust | ![stars](https://img.shields.io/github/stars/FreePeak/ktme?style=flat-square) |
-| [`commitgen`](https://github.com/FreePeak/commitgen) | CLI that writes the commit message from staged changes | Go | ![stars](https://img.shields.io/github/stars/FreePeak/commitgen?style=flat-square) |
-| [`kai`](https://github.com/FreePeak/kai) | Rust TUI for agentic coding with multi-provider compatibility, prompt optimization, and cost-aware routing | Rust | ![stars](https://img.shields.io/github/stars/FreePeak/kai?style=flat-square) |
-| [`cursor-usage`](https://github.com/FreePeak/cursor-usage) | Cursor API request usage in the VS Code status bar: usage, extra charges, per-model breakdown | JavaScript | ![stars](https://img.shields.io/github/stars/FreePeak/cursor-usage?style=flat-square) |
-| [`xdev`](https://github.com/FreePeak/xdev) | Lightweight Go coding agent in one static binary: streaming providers, session trees, terminal UI | Go | ![stars](https://img.shields.io/github/stars/FreePeak/xdev?style=flat-square) |
-| [`dsh-feature-loop`](https://github.com/FreePeak/dsh-feature-loop) | Bounded agent loop for DeepSeek Harness: budget ceilings, cheap-first routing, loop hygiene detectors, ops dashboard | TypeScript | ![stars](https://img.shields.io/github/stars/FreePeak/dsh-feature-loop?style=flat-square) |
-| [`dsh-mux`](https://github.com/FreePeak/dsh-mux) | DeepSeek Harness plugin: talk to coding CLIs from the DSH web GUI, sessions resumed | TypeScript | ![stars](https://img.shields.io/github/stars/FreePeak/dsh-mux?style=flat-square) |
-| [`devagent`](https://github.com/FreePeak/devagent) | Autonomous backend delivery: ticket in, tested pull request out, with multi-worker fan-out and evidence gates | Go | ![stars](https://img.shields.io/github/stars/FreePeak/devagent?style=flat-square) |
-| [`onegw`](https://github.com/FreePeak/onegw) | Single-binary Go LLM gateway: any-to-any provider translation, fallback combos, token saver, usage tracking, ~100 MB RSS | Go | ![stars](https://img.shields.io/github/stars/FreePeak/onegw?style=flat-square) |
-| [`mermaid-mcp-server`](https://github.com/FreePeak/mermaid-mcp-server) | Lightweight MCP server for real-time Mermaid diagram syntax validation, minimal memory footprint | JavaScript | ![stars](https://img.shields.io/github/stars/FreePeak/mermaid-mcp-server?style=flat-square) |
-| [`token-lens`](https://github.com/FreePeak/token-lens) | Local-only dashboard for AI coding sessions: turns, tokens, and cost across Cursor, Claude Code, and OpenCode — all data stays on your machine | TypeScript | ![stars](https://img.shields.io/github/stars/FreePeak/token-lens?style=flat-square) |
+| [`db-mcp-server`](https://github.com/FreePeak/db-mcp-server) | Multi-database MCP server for structured access with configurable guardrails, result limits, masking, timeouts, and audit logging | Go | **451** |
+| [`LeanKG`](https://github.com/FreePeak/LeanKG) | Go code knowledge graph for lean agent context — stop burning tokens, start coding lean | Go | **220** |
+| [`cortex`](https://github.com/FreePeak/cortex) | Declarative Go platform for MCP servers: tools, resources, and prompts in a clean, structured way | Go | **27** |
+| [`ktme`](https://github.com/FreePeak/ktme) | Rust CLI that automates documentation from code changes over the Model Context Protocol | Rust | **15** |
+| [`commitgen`](https://github.com/FreePeak/commitgen) | CLI that writes the commit message from staged changes | Go | **8** |
+| [`kai`](https://github.com/FreePeak/kai) | Rust TUI for agentic coding with multi-provider compatibility, prompt optimization, and cost-aware routing | Rust | **8** |
+| [`cursor-usage`](https://github.com/FreePeak/cursor-usage) | Cursor API request usage in the VS Code status bar: usage, extra charges, per-model breakdown | JavaScript | **6** |
+| [`xdev`](https://github.com/FreePeak/xdev) | Lightweight Go coding agent in one static binary: streaming providers, session trees, terminal UI | Go | **5** |
+| [`dsh-feature-loop`](https://github.com/FreePeak/dsh-feature-loop) | Bounded agent loop for DeepSeek Harness: budget ceilings, cheap-first routing, loop hygiene detectors, ops dashboard | TypeScript | **4** |
+| [`dsh-mux`](https://github.com/FreePeak/dsh-mux) | DeepSeek Harness plugin: talk to coding CLIs from the DSH web GUI, sessions resumed | TypeScript | **4** |
+| [`devagent`](https://github.com/FreePeak/devagent) | Autonomous backend delivery: ticket in, tested pull request out, with multi-worker fan-out and evidence gates | Go | **4** |
+| [`onegw`](https://github.com/FreePeak/onegw) | Single-binary Go LLM gateway: any-to-any provider translation, fallback combos, token saver, usage tracking, ~100 MB RSS | Go | **4** |
+| [`mermaid-mcp-server`](https://github.com/FreePeak/mermaid-mcp-server) | Lightweight MCP server for real-time Mermaid diagram syntax validation, minimal memory footprint | JavaScript | **3** |
+| [`token-lens`](https://github.com/FreePeak/token-lens) | Local-only dashboard for AI coding sessions: turns, tokens, and cost across Cursor, Claude Code, and OpenCode — all data stays on your machine | TypeScript | **2** |
 
 ### Upstream contributions
 
-Merged pull requests to projects I use and study, upstream — each keeps its
-owner link and no sole-authorship is implied:
+Merged pull requests into projects I use and study. Each entry links the
+repository, its upstream star count, and the merged pull requests; no
+sole-authorship is implied. Upstream star counts are a 2026-10-11 snapshot,
+since they move on someone else's repository.
 
-- **[`pterm/pterm`](https://github.com/pterm/pterm)** — *merged* — long lines
-  now wrap before the area is redrawn.
-- **[`pulumi/pulumi`](https://github.com/pulumi/pulumi)** — *merged* — the Go
-  SDK marshals analyzer config schemas correctly.
-- **[`charmbracelet/bubbles`](https://github.com/charmbracelet/bubbles)** —
-  *merged* — delete the word under the cursor in `textinput`.
-- **[`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute)** —
-  *merged* — six fixes across provider routing, SSE output budgets, canonical
-  tool names, and setup configuration.
-- **[`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers)**
-  — *merged* — added a multi-database MCP server to the catalog.
+#### [`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute) — ★ 75,028
+
+Six merged fixes across provider routing, SSE budgets, canonical tool names,
+and setup:
+
+- [#8439 — read `INITIAL_PASSWORD` during setup](https://github.com/diegosouzapw/OmniRoute/pull/8439)
+- [#10980 — surface a bare upstream close as `response.failed`](https://github.com/diegosouzapw/OmniRoute/pull/10980)
+- [#11085 — restore canonical tool names so Claude Code accepts tool calls](https://github.com/diegosouzapw/OmniRoute/pull/11085)
+- [#11209 — append a synthetic user turn for GLM-family upstreams](https://github.com/diegosouzapw/OmniRoute/pull/11209)
+- [#11214 — floor the muse-spark output budget to prevent empty-content 502s](https://github.com/diegosouzapw/OmniRoute/pull/11214)
+- [#11274 — clamp `reasoning_effort` to each model's declared vocabulary](https://github.com/diegosouzapw/OmniRoute/pull/11274)
+
+#### [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) — ★ 96,088
+
+- [#355 — add a multi-database MCP server to the catalog](https://github.com/punkpeye/awesome-mcp-servers/pull/355)
+
+#### [`pulumi/pulumi`](https://github.com/pulumi/pulumi) — ★ 25,780
+
+- [#24775 — the Go SDK marshals analyzer config schemas](https://github.com/pulumi/pulumi/pull/24775)
+
+#### [`pterm/pterm`](https://github.com/pterm/pterm) — ★ 5,553
+
+- [#811 — wrap long lines before the area is redrawn](https://github.com/pterm/pterm/pull/811)
 
 Browse the full [FreePeak organization](https://github.com/FreePeak) for more
 infrastructure, including the DeepSeek Harness plugins and the browser arcade.

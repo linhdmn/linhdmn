@@ -17,9 +17,9 @@ without decoding a visual layout or trusting unsupported metrics.
   attribution, links, and factual claims.
 - Professional positioning around the current Senior Software Engineer role and
   AI-agent / production-infrastructure work.
-- Selected open-source work: the owner's FreePeak organization projects listed in
-  star order (most-adopted first), plus merged upstream contributions kept with
-  honest attribution.
+- Selected open-source work: the owner's FreePeak organization projects listed
+  in star order (most-adopted first) with a literal star count per repo, plus
+  merged upstream contributions kept with honest attribution.
 - Factual correctness of project attribution, employment status, and metrics.
 
 ### Out of scope
@@ -41,7 +41,8 @@ without decoding a visual layout or trusting unsupported metrics.
   software delivery.
 - **Selected work:** three featured projects (`dsh-mux`, `dsh-feature-loop`,
   `xdev`), then a star-ordered project table covering every FreePeak
-  infrastructure repository, then a merged-only upstream contributions list.
+  infrastructure repository, then a merged-only upstream contributions list
+  where each entry carries the upstream star count and the pull-request URL.
 - **Experience:** Be Group as current; BlueSG and ZaloPay explicitly previous.
 - **Technical toolkit:** languages, agent/backend capabilities, and
   infrastructure grouped by practical use.
@@ -68,14 +69,25 @@ portfolio templates:
   under "Upstream contributions", checked on 2026-10-10.
 
 Project descriptions come from each repository's public metadata and README.
-The star ordering was computed from live `stargazers_count` values on
-2026-10-10; because the badges are live shields.io images, the rendered order
-can drift from a fast-moving star count, which is a known and accepted
-limitation of a badge-based ranking.
+The star ordering and every literal star count were computed from live
+`stargazers_count` values on 2026-10-11 and re-verified against the API before
+committing; the upstream counts are the same snapshot. Because the numbers are
+literal rather than live shields.io badges, they are dated in the README and the
+table order can drift from a fast-moving star count — a known, accepted
+limitation of a dated ranking.
 
-The upstream section lists only pull requests with a non-null `merged_at`:
-`pterm/pterm#811`, `pulumi/pulumi#24775`, `charmbracelet/bubbles#1057`,
-`diegosouzapw/OmniRoute` (6 merged), and `punkpeye/awesome-mcp-servers#355`.
+The upstream section lists only pull requests with a non-null `merged_at`, and
+each is linked by URL rather than by number alone:
+`pterm/pterm#811`, `pulumi/pulumi#24775`, `diegosouzapw/OmniRoute` (#8439,
+#10980, #11085, #11209, #11214, #11274), and
+`punkpeye/awesome-mcp-servers#355`.
+
+**Correction recorded here because the earlier commit was wrong about it.**
+`charmbracelet/bubbles#1057` was listed as merged in the 2026-10-10 revision
+and was removed on 2026-10-11. Its `merged_at` is null and it was closed by the
+author on 2026-09-24; the upstream `deleteWordForward` still contains the
+pre-fix logic. It failed the merged-only rule the earlier commit claimed to
+enforce, so the list was wrong by one entry until this revision.
 
 ## 5. Key decisions
 
@@ -90,8 +102,8 @@ The upstream section lists only pull requests with a non-null `merged_at`:
   owner's newest and most representative work.
 - **Attribution honesty.** FreePeak projects are presented as organization
   work, while upstream repositories keep their full `owner/repo` link
-  (`pterm/pterm`, not `pterm`) and a *merged* marker. No sole-authorship claim
-  is made for any organization or upstream repository.
+  (`pterm/pterm`, not `pterm`) and a per-pull-request URL. No sole-authorship
+  claim is made for any organization or upstream repository.
 - **Complete infrastructure coverage, games excluded.** The star-ordered table
   lists all 14 FreePeak repositories that carry a description, a language, or a
   star count above zero — the entire infrastructure set. The 48 browser arcade
@@ -105,9 +117,13 @@ The upstream section lists only pull requests with a non-null `merged_at`:
 - **Merged-only upstream section.** Upstream PRs are listed only when
   `merged_at` is non-null. Open or closed-unmerged PRs (9router, multica,
   awesome-ai-plugins) are deliberately omitted so nothing overstated survives.
-- **Dynamic badges over volatile numbers.** Stars are rendered through
-  `img.shields.io`; no point-in-time metric is hardcoded in the README. This
-  keeps the page resilient to normal repository changes.
+- **Literal, dated star counts over live badges.** The 2026-10-10 revision
+  rendered stars as live shields.io images and no number was visible to a reader
+  without images; the owner then asked for the number itself. The 2026-10-11
+  revision shows literal counts in the table and beside each upstream entry,
+  dated in the README so a stale figure is legible as a snapshot rather than a
+  live value. Upstream counts are explicitly a snapshot because the owner does
+  not control those repositories.
 - **Evidence-oriented descriptions.** Functional language comes from each
   project's README and public repository metadata. Broad claims are kept
   durable ("agent infrastructure", "reliable systems") rather than presenting an
@@ -132,9 +148,9 @@ task-tracker file is kept in a GitHub repo.
 
 ---
 
-*Last updated: 2026-10-10 (`README.md` restructured into a star-ordered
-open-source section: all 14 FreePeak infrastructure repositories listed with
-live star badges, three projects featured, and a new "Upstream contributions"
-section naming only merged PRs with honest `owner/repo` attribution; the 48
-zero-signal arcade games excluded and linked via the organization pointer;
-repository data verified against the GitHub API on 2026-10-10.)*
+*Last updated: 2026-10-11 (`README.md` star numbers are
+now literal and dated (2026-10-11) instead of live shields.io badges, and each
+upstream entry carries its star count plus a direct pull-request URL.
+`charmbracelet/bubbles#1057` was removed: closed by the author, `merged_at`
+null. All 14 FreePeak repos and all 9 PR links re-verified against the GitHub
+API.)*
