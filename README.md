@@ -12,6 +12,8 @@ human-in-the-loop delivery.
 
 Ho Chi Minh City, Vietnam · Software engineer since 2018
 
+[![Tokscale Stats](https://tokscale.ai/api/embed/linhdmn/svg?tokens=compact&cost=compact)](https://tokscale.ai/u/linhdmn)
+
 ---
 
 ## About
