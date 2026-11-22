@@ -41,7 +41,7 @@ counts are refreshed daily by a GitHub Actions workflow.
 Merged pull requests into projects I use. These are small changes to
 repositories other people maintain; the star counts are theirs.
 
-#### [`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute) — ★ 89,334
+#### [`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute) — ★ 89,499
 
 - [#8439 — read `INITIAL_PASSWORD` during setup](https://github.com/diegosouzapw/OmniRoute/pull/8439)
 - [#10980 — surface a bare upstream close as `response.failed`](https://github.com/diegosouzapw/OmniRoute/pull/10980)
@@ -50,11 +50,11 @@ repositories other people maintain; the star counts are theirs.
 - [#11214 — floor the muse-spark output budget to prevent empty-content 502s](https://github.com/diegosouzapw/OmniRoute/pull/11214)
 - [#11274 — clamp `reasoning_effort` to each model's declared vocabulary](https://github.com/diegosouzapw/OmniRoute/pull/11274)
 
-#### [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) — ★ 98,348
+#### [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) — ★ 98,380
 
 - [#355 — add a multi-database MCP server to the catalog](https://github.com/punkpeye/awesome-mcp-servers/pull/355)
 
-#### [`pulumi/pulumi`](https://github.com/pulumi/pulumi) — ★ 25,929
+#### [`pulumi/pulumi`](https://github.com/pulumi/pulumi) — ★ 25,932
 
 - [#24775 — the Go SDK marshals analyzer config schemas](https://github.com/pulumi/pulumi/pull/24775)
 
