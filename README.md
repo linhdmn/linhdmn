@@ -33,7 +33,7 @@ counts are refreshed daily by a GitHub Actions workflow.
 | [`dsh-mux`](https://github.com/FreePeak/dsh-mux) | DeepSeek Harness plugin to drive coding CLIs from the web GUI | TypeScript | **4** |
 | [`devagent`](https://github.com/FreePeak/devagent) | Backend agent: ticket in, tested pull request out, with parallel workers and evidence gates | Go | **4** |
 | [`mermaid-mcp-server`](https://github.com/FreePeak/mermaid-mcp-server) | MCP server that validates Mermaid diagram syntax | JavaScript | **3** |
-| [`token-lens`](https://github.com/FreePeak/token-lens) | Local-only dashboard for AI coding sessions: turns, tokens, and cost | TypeScript | **2** |
+| [`token-lens`](https://github.com/FreePeak/token-lens) | Local-only dashboard for AI coding sessions: turns, tokens, and cost | TypeScript | **3** |
 <!-- STARS:END -->
 
 ### Contributions to other projects
@@ -41,7 +41,7 @@ counts are refreshed daily by a GitHub Actions workflow.
 Merged pull requests into projects I use. These are small changes to
 repositories other people maintain; the star counts are theirs.
 
-#### [`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute) — ★ 90,445
+#### [`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute) — ★ 90,657
 
 - [#8439 — read `INITIAL_PASSWORD` during setup](https://github.com/diegosouzapw/OmniRoute/pull/8439)
 - [#10980 — surface a bare upstream close as `response.failed`](https://github.com/diegosouzapw/OmniRoute/pull/10980)
@@ -50,15 +50,15 @@ repositories other people maintain; the star counts are theirs.
 - [#11214 — floor the muse-spark output budget to prevent empty-content 502s](https://github.com/diegosouzapw/OmniRoute/pull/11214)
 - [#11274 — clamp `reasoning_effort` to each model's declared vocabulary](https://github.com/diegosouzapw/OmniRoute/pull/11274)
 
-#### [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) — ★ 98,524
+#### [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) — ★ 98,566
 
 - [#355 — add a multi-database MCP server to the catalog](https://github.com/punkpeye/awesome-mcp-servers/pull/355)
 
-#### [`pulumi/pulumi`](https://github.com/pulumi/pulumi) — ★ 25,943
+#### [`pulumi/pulumi`](https://github.com/pulumi/pulumi) — ★ 25,946
 
 - [#24775 — the Go SDK marshals analyzer config schemas](https://github.com/pulumi/pulumi/pull/24775)
 
-#### [`pterm/pterm`](https://github.com/pterm/pterm) — ★ 5,572
+#### [`pterm/pterm`](https://github.com/pterm/pterm) — ★ 5,571
 
 - [#811 — wrap long lines before the area is redrawn](https://github.com/pterm/pterm/pull/811)
 
