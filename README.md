@@ -27,8 +27,8 @@ counts are refreshed daily by a GitHub Actions workflow.
 | [`kai`](https://github.com/FreePeak/kai) | Rust TUI for agentic coding with multiple providers and cost-aware routing | Rust | **9** |
 | [`commitgen`](https://github.com/FreePeak/commitgen) | CLI that writes a commit message from staged changes | Go | **8** |
 | [`cursor-usage`](https://github.com/FreePeak/cursor-usage) | VS Code and Cursor status bar extension showing request usage, extra charges, and a per-model breakdown | JavaScript | **6** |
+| [`onegw`](https://github.com/FreePeak/onegw) | Single static Go LLM gateway with cross-API translation, fallback combos, token saver, and usage tracking | Go | **6** |
 | [`xdev`](https://github.com/FreePeak/xdev) | Lightweight Go coding agent in one static binary | Go | **5** |
-| [`onegw`](https://github.com/FreePeak/onegw) | Single static Go LLM gateway with cross-API translation, fallback combos, token saver, and usage tracking | Go | **5** |
 | [`dsh-feature-loop`](https://github.com/FreePeak/dsh-feature-loop) | Bounded agent loop for DeepSeek Harness with budget ceilings and cheap-first routing | TypeScript | **4** |
 | [`dsh-mux`](https://github.com/FreePeak/dsh-mux) | DeepSeek Harness plugin to drive coding CLIs from the web GUI | TypeScript | **4** |
 | [`devagent`](https://github.com/FreePeak/devagent) | Backend agent: ticket in, tested pull request out, with parallel workers and evidence gates | Go | **4** |
@@ -41,7 +41,7 @@ counts are refreshed daily by a GitHub Actions workflow.
 Merged pull requests into projects I use. These are small changes to
 repositories other people maintain; the star counts are theirs.
 
-#### [`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute) — ★ 90,657
+#### [`diegosouzapw/OmniRoute`](https://github.com/diegosouzapw/OmniRoute) — ★ 90,853
 
 - [#8439 — read `INITIAL_PASSWORD` during setup](https://github.com/diegosouzapw/OmniRoute/pull/8439)
 - [#10980 — surface a bare upstream close as `response.failed`](https://github.com/diegosouzapw/OmniRoute/pull/10980)
@@ -50,11 +50,11 @@ repositories other people maintain; the star counts are theirs.
 - [#11214 — floor the muse-spark output budget to prevent empty-content 502s](https://github.com/diegosouzapw/OmniRoute/pull/11214)
 - [#11274 — clamp `reasoning_effort` to each model's declared vocabulary](https://github.com/diegosouzapw/OmniRoute/pull/11274)
 
-#### [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) — ★ 98,566
+#### [`punkpeye/awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers) — ★ 98,593
 
 - [#355 — add a multi-database MCP server to the catalog](https://github.com/punkpeye/awesome-mcp-servers/pull/355)
 
-#### [`pulumi/pulumi`](https://github.com/pulumi/pulumi) — ★ 25,946
+#### [`pulumi/pulumi`](https://github.com/pulumi/pulumi) — ★ 25,949
 
 - [#24775 — the Go SDK marshals analyzer config schemas](https://github.com/pulumi/pulumi/pull/24775)
 
